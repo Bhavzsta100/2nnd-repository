@@ -2,7 +2,7 @@
     box-sizing:border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(31, 31, 31);
 }
 
 li, a, button{
@@ -11,6 +11,7 @@ li, a, button{
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    background-color: rgb(17, 17, 17);
 }
 
 header{
@@ -18,6 +19,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: rgb(17, 17, 17);
 }
 
 .logo{
@@ -40,7 +42,7 @@ header{
 }
 
 .nav_links li a:hover{
-    color: turquoise;
+    color: #40e0d0;
 }
 
 button{
@@ -54,4 +56,23 @@ button{
 
 button:hover{
     background-color: darkslateblue;
+}
+
+.cont_1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #edf0f1;
+    text-align: center;
+    padding: 50px;
+}
+
+.cont_2{
+    color: #edf0f1;
+    background-color: rgb(31, 31, 31);
+    display:flex;
+    padding: 20px;
+}
+.cont_2:hover{
+    color: #40e0d0;
 }
