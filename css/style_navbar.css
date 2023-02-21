@@ -5,7 +5,7 @@
     background-color: rgb(31, 31, 31);
 }
 
-li, a, button{
+header#li, a, button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -65,16 +65,23 @@ button:hover{
     font-size: 20px;
     color: #edf0f1;
     text-align: center;
-    padding: 50px;
+    padding: 30px;
+}
+.cont:hover{
+    cursor: pointer;;
 }
 
 .cont_1 a{
     border: 10px solid gray;
-    max-width: 700px;
+    max-width: 300px;
     margin: auto;
     width:100%;
-    height: 50vh;
+    height:10vh;
     display: flex;
     justify-content: center;
     align-items: center;   
+}
+
+.cont_1:hover{
+    cursor: pointer;
 }
