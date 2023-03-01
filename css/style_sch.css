@@ -2,64 +2,8 @@
     box-sizing:border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(31,31,31);
 }
-
-header#li, a, button{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-    background-color: rgb(17, 17, 17);
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: rgb(17, 17, 17);
-}
-
-.logo{
-    width:37%;
-    height:auto;
-    cursor: pointer;
-}
-
-.nav_links{
-    list-style: none;
-    background-color: rgb(17, 17, 17);
-}
-
-.nav_links li {
-    display: inline-block;
-    padding: 0px 20px;
-    background-color: rgb(17, 17, 17);
-}
-
-.nav_links li a{
-    transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover{
-    color: #40e0d0;
-}
-
-button{
-    padding: 9px 25px;
-    background-color: darkcyan;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover{
-    background-color: darkslateblue;
-}
-
 .cont{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -70,6 +14,7 @@ button:hover{
 }
 
 .cont_1 li a{
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 30px;
     padding: 1px 3px;
     max-width: fit-content;
@@ -79,7 +24,8 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: rgb(31, 31, 31); 
+    text-decoration: none;
+    color: #edf0f1;
 }
 .cont_1 li a:hover{
     color: #40e0d0;
