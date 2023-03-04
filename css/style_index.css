@@ -2,8 +2,18 @@
     box-sizing:border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(31,31,31);
 }
+
+section{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width:100%;
+    background: url("../img/TranscodedWallpaper.jfif")no-repeat;
+    background-position: center;
+    background-size: cover ;
+}
+
 .cont{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
