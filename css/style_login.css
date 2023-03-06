@@ -72,7 +72,7 @@ top: -5px;
 }
 .forget{
     margin:-15px 0 15px;
-    font-size: .9em;
+    font-size: 15px;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -110,6 +110,7 @@ button{
     text-decoration: none;
     color: #fff;
     font-weight: 600;
+    font-size: 15px;
 }
 .register p a:hover{
     text-decoration: underline;
