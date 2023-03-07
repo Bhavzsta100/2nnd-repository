@@ -7,3 +7,6 @@ section{
     background-position: center;
     background-size: cover ;
 }
+.cover img{
+    width:17%;
+}
