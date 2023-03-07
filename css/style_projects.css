@@ -12,7 +12,7 @@ section{
   
   .column {
     float: left;
-    width: 33.33%;
+    width: 0%;
     padding: 5px;
     
   }
@@ -26,12 +26,30 @@ section{
     display: table;
   }
 
-  @media screen and (max-width: 1700px) {
+  @media screen and (max-width: 2400px) {
+    .column {
+      width: 10%;
+    }
+  }@media screen and (max-width: 2200px) {
+    .column {
+      width: 11.1%;
+    }
+  }
+  @media screen and (max-width: 2000px) {
+    .column {
+      width: 12.5%;
+    }
+  }@media screen and (max-width: 1800px) {
+    .column {
+      width: 14.29%;
+    }
+  }
+  @media screen and (max-width: 1600px) {
     .column {
       width: 16.66%;
     }
   }
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width: 1400px) {
     .column {
       width: 20%;
     }
@@ -52,7 +70,7 @@ section{
       width: 50%;
     }
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
