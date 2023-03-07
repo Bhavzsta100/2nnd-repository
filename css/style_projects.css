@@ -6,19 +6,54 @@ section{
     background-position: center;
     background-size: cover ;
 }
-.cover{
-    margin: 5%;
-    text-align: center;
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    
+  }
+  .row{
+    margin: 25px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-}
-.cover img{
-    margin: 0 auto;
-    width: 20%;
-}
-.cover figcaption{
-    color: #fff;
-    text-align: center;
-}
-.cover img:hover{
-    cursor: pointer;
-}
+  @media screen and (max-width: 1700px) {
+    .column {
+      width: 16.66%;
+    }
+  }
+  @media screen and (max-width: 1500px) {
+    .column {
+      width: 20%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .column {
+      width: 25%;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .column {
+      width: 33.33%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
